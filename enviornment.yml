@@ -4,7 +4,6 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=4.5=1_gnu
-  - _pytorch_select=0.1=cpu_0
   - blas=1.0=mkl
   - bzip2=1.0.8=h7b6447c_0
   - ca-certificates=2022.2.1=h06a4308_0
@@ -51,7 +50,6 @@ dependencies:
   - mkl_random=1.1.1=py37h0573a6f_0
   - ncurses=6.3=h7f8727e_2
   - ninja=1.10.2=py37hd09550d_3
-  - numpy-base=1.19.2=py37hfa32c7d_0
   - opencv=3.4.2=py37h6fd60c2_1
   - openssl=1.1.1m=h7f8727e_0
   - pcre=8.45=h295c915_0
@@ -60,14 +58,11 @@ dependencies:
   - py-opencv=3.4.2=py37hb342d67_1
   - pycparser=2.21=pyhd3eb1b0_0
   - python=3.7.11=h12debd9_0
-  - pytorch=1.7.1=cpu_py37h6a09485_0
   - readline=8.1.2=h7f8727e_1
   - setuptools=58.0.4=py37h06a4308_0
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.38.0=hc218d9a_0
   - tk=8.6.11=h1ccaba5_0
-  - torchvision=0.8.2=cpu_py37ha229d99_0
-  - typing_extensions=3.10.0.2=pyh06a4308_0
   - wheel=0.37.1=pyhd3eb1b0_0
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7f8727e_4
@@ -113,6 +108,9 @@ dependencies:
     - tf2onnx==1.5.6
     - tfcoreml==1.1
     - timm==0.5.4
+    - torch==1.11.0
+    - torchaudio==0.11.0
+    - torchvision==0.12.0
     - tqdm==4.46.0
     - typing==3.7.4.3
     - typing-extensions==4.1.1
