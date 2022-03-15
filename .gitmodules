@@ -1,0 +1,3 @@
+[submodule "lali_util"]
+	path = lali_util
+	url = https://github.com/yohannes-taye/lali_util.git
